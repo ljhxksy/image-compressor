@@ -1,0 +1,53 @@
+# CS 40 HW 4 - arith
+## Authors: Anh Hoang and Emilio Aleman
+## CS Logins: ahoang05 and ealema01
+
+
+## Acknowledgements
+We would like to thank all the TAs for their help and guidance during Office 
+Hours through the process of completing this assignment, especially Dan and 
+Marten (SAVED OUR LIVES), Bill (we love bill <3), Tim (for telling us to delete 
+the 4 gigantic mobo files), Trevor, Alex, Rohun, Neil (we love your flowers 
+sweater), and Charlie. 
+
+We also used Piazza and Stack Overflow to help debug our program. Also, we 
+utilized Hanson's C Interfaces and Implementations. 
+
+## Architecture Explanation
+
+40image.c - Given main for processing input file
+
+bitpack.c & bitpack.h - Contains the implementation of functions for 
+                        manipulating bit-packed data.
+
+codeword.c & codeword.h - Contains the implementation of functions for 
+                          packing components of a Compressed struct into a 
+                          codeword and unpacking a codeword into the 
+                          Compressed struct
+
+compVidConversion.c & compVidConversion.h - Contains the implementation of
+                                            functions for converting component
+                                            videos
+
+compress40.c - Contains functions for compressing and decompressing PPM images
+               given from the input file
+
+helper.c - Contains the declaration of helper functions and structs 
+           that are used across the compression and decompression of ppm images
+
+rgbConversion.c - contains the implementation of functions for converting RGB
+
+
+## Implementation Description
+We were able to follow all specifications and construct a functioning program 
+to the best of our knowledge.
+
+
+## Approximate Time Spent Analyzing Problems in Assignment
+We spent approximately 10 hours analyzing the problems in the assignment.
+
+
+## Approximate Time Spent Solving Problems after Analysis
+We spent approximately 40 + 5 hours solving the problems in the assignment 
+after (yay cs40 + 5)
+ 
